@@ -12,12 +12,17 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f0f4f3;
 }
 .container{
   width: 800px;
   height: 500px;
   display: flex;
   position: relative;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgb(0,0,0,0.3);
 }
 .container-form{
   width: 100%;
@@ -121,7 +126,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 120px;
+  gap: 20px;
   padding: 0 100px;
   color: white;
   transition: transform 0.5s ease-in-out
@@ -147,6 +152,9 @@ body{
 }
 .container.toggle .welcome-sign-up{
   transform: translateX(-100%);
+}
+.container.toggle .btn-registro{
+    background-color: #3aa8ad ;
 }
 
 
